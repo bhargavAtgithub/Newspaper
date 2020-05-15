@@ -1,0 +1,37 @@
+.logo{
+    height: 30%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    .brand{
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    
+        .vertical-text{
+            transform: rotate(-90deg) translateY(15px);
+        }
+    
+        .horizontal-text{
+            margin: 0;
+            display: grid;
+            grid-template-rows: repeat(2,50%);
+        }
+    
+        .seperator{
+            margin: 0 0px 0 30px ;
+    
+            span{
+                font-size: 40px;
+            }
+        }
+    
+        span {
+            font-family: 'Bungee Shade', cursive;
+            font-size: 15px;
+        }
+    }
+}
+
+
+

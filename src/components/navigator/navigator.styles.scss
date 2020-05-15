@@ -1,0 +1,29 @@
+.navigator {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    
+    .mobile-nav{
+        display: none;
+    
+        @media screen and (max-width: 800px){
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 20px;
+        }
+
+    }
+    
+    @media screen  and (max-width: 800px){
+        position: absolute;
+        bottom: 20px;    
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+}

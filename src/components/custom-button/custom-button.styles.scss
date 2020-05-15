@@ -1,0 +1,15 @@
+.custom-button {
+    button{
+        margin: 5px;
+        height: 30px;
+        background-color: white;
+        border: 3px solid black;
+        font-family: 'Bungee inline', cursive;
+        font-size: 15px;
+
+        @media screen and (max-width: 800px){
+            margin: 2px;
+            font-size: 10px;
+        }
+    }
+}

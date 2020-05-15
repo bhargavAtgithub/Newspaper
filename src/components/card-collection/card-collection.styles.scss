@@ -1,0 +1,23 @@
+.card-collection {
+    margin-top: 15px;
+    flex: 0 0 27rem;
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 2.5rem);
+    border-radius: 0.3rem;
+}
+
+
+.cards {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.6rem 0.5rem;
+    overflow-y: auto;
+    list-style: none;
+    padding-bottom: 300px;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+  }
