@@ -6,10 +6,12 @@
         border: 3px solid black;
         font-family: 'Bungee inline', cursive;
         font-size: 15px;
-
+        white-space: nowrap;
+        
         @media screen and (max-width: 800px){
             margin: 2px;
             font-size: 10px;
+            white-space: normal;
         }
     }
 }

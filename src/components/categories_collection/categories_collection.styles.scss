@@ -1,0 +1,10 @@
+.CategoriesCollection{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+.CategoriesCollection::-webkit-scrollbar {
+    display: none;
+  }
