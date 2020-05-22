@@ -62,6 +62,7 @@ class Board extends React.Component{
             <Logo application={"NEWSPAPER"}/>
             <Weather />
             <Surveys />
+            <span className="notification">Currently under development. Live data not available.</span>
         </MiniBoard>
         <MiniBoard status={this.state.board2}>
             <News />

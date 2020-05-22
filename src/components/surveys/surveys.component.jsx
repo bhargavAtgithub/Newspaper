@@ -6,7 +6,13 @@ import Card from '../card/card.component';
 
 const Surveys = () => (
     <div className='surveys'>
-        <Card label = {'Surveys'} />
+        <Card label = {'Surveys'} text = {
+            [
+                "No surveys availble right now.",
+                "This section will link to the important surveys which help researches."
+            ]
+        }
+        />
     </div>
 );
 
